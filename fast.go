@@ -15,7 +15,7 @@ import (
 	"sync"
 )
 
-// easyjson:json
+//easyjson:json
 type User struct {
 	Browsers []string `json:"browsers"`
 	Company  string   `json:"-"`
